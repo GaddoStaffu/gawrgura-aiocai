@@ -1,9 +1,7 @@
 from characterai import aiocai
 import asyncio
 
-ai_chat = "Starting"
-
-async def main():
+async def talktoai():
     char = "oL2IzOD15_wBIP_o6NAWDwiVyAnzz_3aGLu9aU7i254"
 
     client = aiocai.Client('ceaf8e69970f170b9166c733f377201a9510a608')
@@ -25,8 +23,9 @@ async def main():
             )
 
             print(f'{message.name}: {message.text}')
-            ai_chat = message.text
+            return message.text  # Return the latest message
 
 
-asyncio.run(main())
+asyncio.run(talktoai())
+
 
