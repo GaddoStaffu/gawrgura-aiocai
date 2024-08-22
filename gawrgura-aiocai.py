@@ -1,6 +1,8 @@
 from characterai import aiocai
 import asyncio
 
+ai_chat = "Starting"
+
 async def main():
     char = "oL2IzOD15_wBIP_o6NAWDwiVyAnzz_3aGLu9aU7i254"
 
@@ -23,6 +25,8 @@ async def main():
             )
 
             print(f'{message.name}: {message.text}')
+            ai_chat = message.text
 
 
 asyncio.run(main())
+
