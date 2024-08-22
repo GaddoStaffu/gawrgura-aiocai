@@ -1,5 +1,6 @@
 import asyncio
 import gawrgura_aiocai
+import pyttsx3
 
 print("Waking up Gawr Gura....")
 
