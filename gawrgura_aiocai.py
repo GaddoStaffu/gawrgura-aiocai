@@ -35,7 +35,6 @@ async def talktoai():
                 if text.lower() in ["cmd_exit"]:
                     print("Ending conversation...")
                     break
-
                 message = await chat.send_message(char, new.chat_id, text)
                 print(f'{message.name}: {message.text}')
                 
