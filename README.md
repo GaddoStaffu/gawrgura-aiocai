@@ -1,6 +1,6 @@
 # Gawr Gura AI using character.ai
 
-Just a simple gawr gura ai chat made using the <a href="https://github.com/kramcat/CharacterAI">Unofficial Python API for character.ai.</a>
+Just a simple Gawr Gura AI chat made using the [Unofficial Python API for character.ai](https://github.com/kramcat/CharacterAI).
 
 ## TODO
 
