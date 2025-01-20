@@ -19,6 +19,7 @@ def setup_voice():
 # Function to start the AI conversation
 async def talktoai():
     setup_voice()
+
     try:
         char = "oL2IzOD15_wBIP_o6NAWDwiVyAnzz_3aGLu9aU7i254"
         client = aiocai.Client('ceaf8e69970f170b9166c733f377201a9510a608')
