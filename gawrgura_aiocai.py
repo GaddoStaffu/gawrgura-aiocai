@@ -30,6 +30,7 @@ async def talktoai():
             new, answer = await chat.new_chat(char, me.id)
             print(f'{answer.name}: {answer.text}')
             
+            
             while True:
                 text = input('YOU: ')
                 if text.lower() in ["cmd_exit"]:
