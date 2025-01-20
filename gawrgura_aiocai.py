@@ -19,7 +19,6 @@ def setup_voice():
 # Function to start the AI conversation
 async def talktoai():
     setup_voice()
-    gawr_says = "Did not Change"  # Default message
 
     try:
         char = "oL2IzOD15_wBIP_o6NAWDwiVyAnzz_3aGLu9aU7i254"
