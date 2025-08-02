@@ -22,9 +22,11 @@ pip install -r requirements.txt
 ```
 
 ## Run the CLI:
-Add Character.AI Token and character ID inside `gawrgura_aiocai.py`
-run this code:
+Add Character.AI Token and character ID inside `gawrgura_aiocai.py`.
+
+Run this code:
 ```bash
 python main.py
 ```
+
 
