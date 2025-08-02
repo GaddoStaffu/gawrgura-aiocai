@@ -21,8 +21,8 @@ async def talktoai():
     setup_voice()
 
     try:
-        char = "oL2IzOD15_wBIP_o6NAWDwiVyAnzz_3aGLu9aU7i254"
-        client = aiocai.Client('ceaf8e69970f170b9166c733f377201a9510a608')
+        char = "CHARACTER ID"
+        client = aiocai.Client('TOKEN')
 
         me = await client.get_me()
         async with await client.connect() as chat:
@@ -48,3 +48,4 @@ async def talktoai():
     except Exception as e:
         print(f"An error occurred: {e}")
         engine.stop()  # Stop the engine if an error occurs
+
