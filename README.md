@@ -20,3 +20,7 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
+Add Character.AI Token
+
+Add Character.AI Character ID
