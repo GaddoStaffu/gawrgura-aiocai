@@ -1,7 +1,22 @@
-# Gawr Gura AI using character.ai
+# 🗣️ AI Voice Chat with Character.AI and Text-to-Speech
 
-Just a simple gawr gura ai chat made using the <a href="https://github.com/kramcat/CharacterAI">Unofficial Python API for character.ai.</a>
+This is a simple Python async CLI project that allows users to talk with a Character.AI chatbot using the `characterai` and `pyttsx3` libraries. Text responses from the AI are converted into speech using a text-to-speech engine.
 
-## Voice Interaction
+## 🔧 Features
 
-I added voice interaction using the speech recognition library.
+- Talk to a Character.AI bot via terminal input
+- AI responses are spoken aloud using TTS
+- Supports graceful exit using `cmd_exit` command
+- Customizable speech rate, volume, and voice
+
+## 📦 Requirements
+
+- Python 3.7+
+- `characterai`
+- `pyttsx3`
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
